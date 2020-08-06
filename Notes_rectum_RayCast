@@ -1,0 +1,6 @@
+2020-08-06 1:12 AM
+to lower the raycast count use a recursive methode:
+once a collider is found , use a smaller  raycast buddget until there is no collider without creating points for the mesh .
+once the smaller coliider budget hit collider is not the same as the oldviewcast collider we ray cast backwards to find the edge of the collider .
+once the edge is found , we simple set the new point of the mesh .
+
